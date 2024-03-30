@@ -383,7 +383,8 @@ public enum Mixins {
                     "minecraft.fastload.MixinWorldChunkManager",
                     "minecraft.fastload.MixinWorldServer",
                     "minecraft.fastload.MixinEntityPlayerMP",
-                    "minecraft.fastload.MixinPlayerManager")
+                    "minecraft.fastload.MixinPlayerManager",
+                    "minecraft.fastload.MixinPlayerInstance")
             .setApplyIf(() -> SpeedupsConfig.fastChunkHandling)),
 
     // Ic2 adjustments
